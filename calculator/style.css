@@ -1,0 +1,41 @@
+body {
+    background-color: orangered;
+}
+
+.buttons {
+    margin: auto;
+    position: relative;
+    top: 10%;
+    left: 2%;
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+    border: 6px solid white;
+    transition-duration: 0.2s;
+}
+
+.buttons:hover {
+    color: black;
+    background-color: white;
+}
+
+#box {
+    margin: auto;
+    border: 6px solid white;
+    width: 400px;
+    height: 500px;
+}
+
+#text {
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    position: relative;
+    top: 5%;
+    left: .5%;
+    width: 380px;
+    height: 100px;
+    resize: none;
+    background-color: orangered;
+    border: 6px solid white;
+}
